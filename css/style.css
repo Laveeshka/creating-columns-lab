@@ -6,6 +6,7 @@ body, html {
   display: block;
   text-align: center;
   background-color: #666;
+  box-sizing: border-box;
 }
 
 .container, h1 {
@@ -14,6 +15,7 @@ body, html {
   min-width: 400px;
   padding: 10px;
   margin: 10px auto;
+  display: float;
 }
 
 h4 {
@@ -46,6 +48,22 @@ img:hover {
   background-color: #dd4444;
 }
 
-/* create a column class! make sure all of the divs within 'container's have a class of 'column' */
+/* create a column class! make sure all of the divs 
+within 'container's have a class of 'column' */
+.column {
+ display: float;
+ width: 33.333%;
+}
 
 /* create your tile classes! we recommend .small .med .large */
+.small {
+ 
+}
+
+.med {
+  
+}
+
+.large {
+  
+}
